@@ -8,23 +8,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>J A M E S &nbsp; W A W E R U</title>
     <link rel="icon" href="{% static 'images/logo-icon.png' %}">
-
-
-
     <link rel="icon" href="/Assets/img/15.jpg">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="{% static 'icofont/icofont.min.css' %}"> -->
-    <!-- <link rel="stylesheet" href="{% static 'fontawesome-free/css/all.min.css' %}"> -->
-    <!-- <link rel="stylesheet" href="{% static 'aos/aos.css' %}"> -->
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="https://allyoucan.cloud/cdn/icofont/1.0.1/icofont.css">
-
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
     <!-- links -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
@@ -50,30 +41,22 @@
                             <li class="active"><a href="#home">Home</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#skills">Skills</a></li>
-                            <!-- <li><a href="#portfolio">Portfolio</a></li> -->
                             <li><a href="#work">My Work</a></li>
-
                             <li><a href="#contact">Contact</a></li>
-                            <!-- <div class="invert pl-4 " id="theme-button">
-                                <ion-icon name='contrast-outline' style="color:White"></ion-icon>
-                            </div> -->
-                            <!--  -->
-
-
+                            <div class="invert pl-4 " id="theme-button">
+                                <ion-icon name='contrast-outline' style="color:rgb(17, 190, 221)"></ion-icon>
+                            </div>
+                          
                         </ul>
 
                     </nav>
 
                     <div class="changed mx-3"><i class="icofont-ui-brightness change-theme" id="theme-button"></i></div>
 
-
-
                 </div>
             </div>
-
         </div>
     </header>
-
     <section class=" descript "  id="home">
         <div class="container ">
 
@@ -87,9 +70,9 @@
                         <p> <span id="big"></span>{{infor.mini_about}}</p>
 
                         <div class="social">
-                            <a href="{{infor.instagram}}"> <i class="icofont-instagram"></i></a>
+                            <a href="{{infor.instagram}}"> <i class="fa fa-instagram"></i></a>
 
-                            <a href="{{infor.twitter}}"> <i class="icofont-twitter"></i></a>
+                            <a href="{{infor.twitter}}"> <i class="fa fa-twitter"></i></a>
                             <a href="{{infor.facebook}}"><i class="fa fa-facebook-f" style="background: #4974c5 "></i>
                            </a>
                             <a href="{{infor.github}}"><i class="fa fa-github"></i>
@@ -154,9 +137,6 @@
                             <div> <i class="fa fa-database"></i>
                                 <p>sql-database</p>
                             </div>
-                            <!-- <div class="django"> <img src="{% static 'images/django.png' %}" width="40" height="80">
-                            </div> -->
-
 
                         </div>
 
@@ -328,7 +308,7 @@
                     <div class=" col-md-6 initial-7 aos-init " data-aos="zoom-in " data-aos-delay="700 ">
                         <img src="{% static 'images/19.svg' %} " alt=" ">
                     </div>
-{% endfor %}
+                 {% endfor %}
                 </div>
                 <div class="footing ">
                     <div class="row justify-content-center ">
@@ -353,22 +333,13 @@
     </footer>
 
     <div id="preloader"></div>
-
     <script src="{% static 'jquery/jquery.min.js' %}"></script>
-
-    <!-- <script src="{% static 'isotope-layout/isotope.pkgd.min.js' %}'"></script> -->
-    <!-- <script src="{% static 'aos/aos.js' %}"></script> -->
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="{% static 'js/main.js' %}"></script>
-
     <script src="{% static 'jquery.easing/jquery.easing.min.js' %}"></script>
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
 </body>
 
 </html>
